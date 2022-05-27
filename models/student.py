@@ -17,7 +17,7 @@ class Student():
         self._performance = Performance(average_score)
 
     def __str__(self) -> str:
-        return f"{self._last_name, self._first_name, self._middle_name} is currently attending " + super().__str__()
+        return f"{self._last_name} {self._first_name} {self._middle_name}"
 
     def student_performance(self) -> str:
-        return f"Student has {Performance.student_performance1(self._performance)} performance"
+        return f"Student has {Performance.student_performance(self._performance)} performance"

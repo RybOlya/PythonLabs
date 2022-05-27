@@ -1,6 +1,5 @@
-from models.group import Group
 
-class Schedule(Group):
+class Schedule():
 
     def __init__(self, disciplines: dict):
         self._disciplines = disciplines
